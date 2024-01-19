@@ -30,3 +30,4 @@ let questionIndex = 0 // Индекс текущего вопроса
 
 clearPage()
 showQuestion()
+answerBtn.onclick = checkAnswer
