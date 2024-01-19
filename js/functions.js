@@ -21,6 +21,6 @@ function showQuestion() {
 				</label>
 			</li>
 		`
-		answersContainer.insertAdjacentHTML('afterbegin', answerTemplate)
+		answersContainer.insertAdjacentHTML('beforeend', answerTemplate)
 	}
 }
